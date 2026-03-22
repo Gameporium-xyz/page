@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+body {
+    background-color: #09090b;
+}
+
+
+.font {
+    font-family: "Nunito", sans-serif;
+    font-weight: 500;
+}
+
+.icon-row {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+
+  border: 1px solid #27272a;
+  background-color: #09090b;
+  padding: 8px 12px;
+  border-radius: 6px;
+
+  width: fit-content; /* shrink to content */
+    border: 1px solid #b12fff;  /* optional, looks nicer */
+  border-radius: 6px;
+}
+
+.icon {
+  width: 32px;
+  height: 32px;
+  font-size: 32px; /* for font icons */
+  color: #b12fff;
+  fill: currentColor;
+}
+
+.text {
+  white-space: nowrap;
+  font-size: x-large;
+color: #71717a;
+
+  padding: 5px 75px;   /* ⬅️ this is what you want */
+  background-color: rgba(255, 255, 255, 0.05);
+  /* border: 1px solid #b12fff;  /* optional, looks nicer */
+  border-radius: 6px;
+}
+
